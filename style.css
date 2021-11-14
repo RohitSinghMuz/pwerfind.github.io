@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: gray;
+  text-align: center;
+}
+
+.cylinder {
+  width: 30vw;
+  top: 100px;
+  height: auto;
+  background-color: blueviolet;
+
+  margin: 100px;
+  padding: 40px;
+}
+
+.power {
+  width: 30vw;
+  height: auto;
+  background-color: rgb(0, 78, 245);
+
+  top: 300px;
+
+  margin: 100px;
+  padding: 40px;
+}
+
+.wallskk {
+  width: 30vw;
+  height: auto;
+  background-color: rgb(8, 247, 68);
+
+  top: 500px;
+  margin: 100px;
+  padding: 40px;
+}

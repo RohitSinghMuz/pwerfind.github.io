@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerAssignment</title>
+</head>
+
+<body>
+
+    <div class="cylinder">
+        <h2><u>Volume and surface area of cylinder</u></h1>
+            <label>Height:</label>
+            <input type="number" id="height" />
+            <label>radius:</label>
+            <input type="number" id="radius" />
+
+            <button style="margin-top: 20px;" onclick="volume(),surfaceArea()">Calculate</button>
+            <br>
+            <p id="vol1"></p>
+            <p id="area"></p>
+
+
+    </div>
+
+    <div class="power">
+        <h1><u>Calculate Power</u></h1>
+        <label>Voltage:</label>
+        <input type="number" id="vv" />
+        <label>Current:</label>
+        <input type="number" id="cc" />
+        <button style="margin-top: 20px;" onclick="power()">Calculate</button>
+
+        <h2 id="pow"></h2>
+    </div>
+
+    <div class="wallskk">
+        <h2><u>calculte no. of walls painted:</u></h2>
+        <label>Area:</label>
+        <input type="number" id="a" />
+        <label>Height:</label>
+        <input type="number" id="he" />
+        <label>Width:</label>
+        <input type="number" id="width" />
+        <button style="margin-top: 20px;" onclick="noOfWallsPainted()">Calculate</button>
+        <h1 id="noOfWalls"></h1>
+
+    </div>
+
+
+</body>
+
+<script src="assignmentr.js">
+</script>
+
+
+</html>
